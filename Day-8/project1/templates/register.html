@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        register
+    </title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            background: url(https://cdn4.vectorstock.com/i/1000x1000/47/13/nice-background-vector-16234713.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            height:100vh;
+            background-size:cover
+        }
+        #h1 {
+            background-color: #5f4d69 ;
+            text-align: center;
+            font-size: 50px;
+            font-family: Times New Roman, cursive, serif;
+            color: black;
+            font-weight: 600;
+        }
+        div {
+            margin : 40px;
+        }
+        .naming {
+            color:black;
+            line-height: 50px;
+            font-size: xx-large;
+        
+        }
+        button {
+            font-size: xx-large
+
+        }
+        button:hover {
+            background-color: #5f4d69;
+        }
+
+
+        
+    </style>
+    <link rel = "stylesheet" href="design.css">
+    <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+
+<body>
+    <h1 id="h1">Register Here!!</h1>
+    <div>
+        <form action="{{url_for('hello')}}" method="POST">
+            <!-- <hr> -->
+            <label class="naming" for="name">Full Name: </label>
+            <input type="text" name="name" placeholder="Full Name"><br>
+            <!-- <hr> -->
+            <label class="naming" for="password">Enter Password: </label>
+            <input type="password" name="password" placeholder="Password"><br>
+            <!-- <hr> -->
+            <button>Register</button>
+            <!-- <hr> -->
+        </form>
+
+    </div>
+</body>
+
+</html>

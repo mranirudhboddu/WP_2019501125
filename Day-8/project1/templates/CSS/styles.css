@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover
+}
+#h1 {
+/*background-color: rgb(235, 152, 119) ;*/
+text-align: center;
+font-size: 50px;
+font-family: Times New Roman, cursive, serif;
+color: rgb(77, 41, 13)
+}
+div {
+margin: 40px;
+}
+.naming {
+color: rgb(235, 152, 119);
+line-height: 50px;
+font-size: 20px;
+}
+button {
+font-size: xx-large
+}
+button:hover {
+background-color: rgba(146, 92, 92, 0.89);
+
+}
